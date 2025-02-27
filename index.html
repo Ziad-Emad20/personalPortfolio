@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!-- Start Header -->
     <header class="header">
         <a href="#home" class="logo">
             Ziad <span>Emad</span>
@@ -17,13 +18,14 @@
         <button class="icon-menu"></button>
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#education">About</a>
+            <a href="#education">Education</a>
             <a href="#project">Project</a>
             <a href="#services">Services</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="home">
+    <!-- Start Home -->
+    <section class="home" id="home">
         <article class="home-content">
             <h1>Hi, It's <span>Ziad</span></h1>
             <h3 class="text-animation">I'm a <span>Front-End Developer</span></h3>
@@ -46,29 +48,66 @@
             <img src="/Img/person.png" alt="Person">
         </div>
     </section>
-
-    <section class="education">
+    <!-- Start Education -->
+    <section class="education" id="education">
         <h2 class="heading">Education</h2>
-      <div class="timeline-items">
-        <div class="timeline-item">
-            <div class="timeline-dot"></div>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
                 <div class="timeline-date">2022-2026</div>
                 <div class="timeline-content">
                     <h3>Bachelor's Degree</h3>
                     <p>BIS, University of Misr Higher Institute of Engineering and Technology</p>
                 </div>
-        </div>
+            </div>
 
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2024-2025</div>
-                    <div class="timeline-content">
-                        <h3>DEPI Course</h3>
-                        <p>Front-End React JS</p>
-                    </div>
-                
-      </div>
+                <div class="timeline-date">2024-2025</div>
+                <div class="timeline-content">
+                    <h3>DEPI Course</h3>
+                    <p>Front-End React JS</p>
+                </div>
+
+            </div>
     </section>
+    <!-- Start Servises -->
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-items">
+            <div class="services-item">
+                <h4>UI/UX Design</h4>
+                <p>I help you choose design user interfaces that are easy to use, visually appealing, and engaging.</p>
+            </div>
+            <div class="services-item">
+                <h4>Front-End Development</h4>
+                <p>I will create visually appealing and interactive interfaces that ensure a smooth and comfortable experience for users. I use modern techniques to make your applications shine in terms of aesthetics and functionality.</p>            </div>
+            <div class="services-item">
+                <h4>Back-end Development</h4>
+                <p>work on building robust and reliable back-end systems that support the user interfaces, focusing on security and response speed to ensure the best performance.</p>
+            </div>
+            <div class="services-item">
+                <h4>Testing</h4>
+                <p> I make sure to conduct comprehensive testing to ensure your application runs efficiently and meets user needs. My services include performance, security, and user experience testing, ensuring you have a complete final product.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Start Contact -->
+     <section class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#" method="post">
+            <div class="left-form">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="right-form">
+                <textarea name="message" placeholder="Message" required></textarea>
+                <input type="submit" value="Send Message">
+            </div>
+        </form>
+     </section>
     <script src="/JS/main.js"></script>
 </body>
 
