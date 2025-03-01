@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Assets/icon/style.css">
+    <link rel="stylesheet" href="/CSS/swiper-bundle.min.css">
     <link rel="stylesheet" type="text/css" href="/CSS/styles.css">
     <title>Ziad Emad</title>
 </head>
@@ -19,8 +20,8 @@
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#education">Education</a>
-            <a href="#project">Project</a>
             <a href="#services">Services</a>
+            <a href="#project">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -35,9 +36,9 @@
                 performance. I have unique advantages in terms of
                 technical experience.</p>
             <div class="social-icon">
-                <a href="" class="icon-linkedin-square"></a>
-                <a href="" class="icon-github-square"></a>
-                <a href="" class="icon-instagram"></a>
+                <a href="https://www.linkedin.com/in/ziad-emad2004/" class="icon-linkedin-square"></a>
+                <a href="https://github.com/Ziad-Emad20" class="icon-github-square"></a>
+                <a href="https://www.instagram.com/ziiademad_/" class="icon-instagram"></a>
             </div>
             <div class="btn-group">
                 <a href="#" class="btn">Hire</a>
@@ -92,15 +93,59 @@
             </div>
         </div>
     </section>
+    <!-- Start Project -->
+    <section class="project" id="project">
+        <h2 class="heading">Projects</h2>
+        <div class="slide-content swiper">
+            <div class="slide-container swiper-wrapper">
+                <div class="card swiper-slide">
+                    <img src="/Img/masar.png" alt="Masar Project">
+                    <div class="content">
+                        <h3>Masar</h3>
+                        <p>The website promotes web development and design services, with a section explaining how to realize clients' ideas. It features a modern design and includes information about services and contact options.
+                        </p>
+                        <a href="https://itsmasar.com/" target="_blank" class="btn btn-card">Visit</a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="/Img/photographer.png" alt="Photographer Portfolio Project">
+                    <div class="content">
+                        <h3>Photographer Portfolio</h3>
+                        <p>The website features photographer Ziad Emad, showcasing his work with a sleek black design. It includes sections for home, portfolio, weddings, and contact, highlighting his photography services.</p>
+                        <a href="https://photographer-drab-nine.vercel.app/" target="_blank" class="btn btn-card">Visit</a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="/Img/timeZone.png" alt="Time Zone Project">
+                    <div class="content">
+                        <h3>Time Zone</h3>
+                        <p>The "Time Zone" website showcases a collection of stylish watches with a modern design, allowing visitors to choose their perfect style through a wide card and supporting text that leads to additional content.
+                        </p>
+                        <a href="https://time-zone-two.vercel.app/" target="_blank" class="btn btn-card">Visit</a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="/Img/ziadPortfolio.png" alt="Portflolio Project">
+                    <div class="content">
+                        <h3>Ziad Emad Portflolio</h3>
+                        <p>The website presents Ziad Emad as a front-end developer, highlighting his specialization in designing and creating web interfaces. It includes information about his services, education, and projects, featuring a modern and attractive design.
+                        </p>
+                        <a href="#" class="btn btn-card">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
     <!-- Start Contact -->
-     <section class="contact">
+     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
         <form action="#" method="post">
             <div class="left-form">
-                <input type="text" name="name" placeholder="Name" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <input type="tel" name="phone" placeholder="Phone" required>
-                <input type="text" name="subject" placeholder="Subject" required>
+                <input type="text" name="name" placeholder="Name" required autocomplete="OFF">
+                <input type="email" name="email" placeholder="Email" required autocomplete="OFF">
+                <input type="tel" name="phone" placeholder="Phone" required autocomplete="OFF">
+                <input type="text" name="subject" placeholder="Subject" required autocomplete="OFF">
             </div>
             <div class="right-form">
                 <textarea name="message" placeholder="Message" required></textarea>
@@ -108,6 +153,24 @@
             </div>
         </form>
      </section>
+    <!-- Start Footer -->
+     <footer class="footer">
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/ziad-emad2004/" class="icon-linkedin-square"></a>
+                <a href="https://github.com/Ziad-Emad20" class="icon-github-square"></a>
+                <a href="https://www.instagram.com/ziiademad_/" class="icon-instagram"></a>
+            </div>
+            <nav class="navbar" style="margin-right: 5rem;">
+                <a href="#home" class="active">Home</a>
+                <a href="#education">Education</a>
+                <a href="#services">Services</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        <p>&copy; 2025 Ziad Emad. All rights reserved.</p>
+     </footer>
+    <!-- End Footer -->
+    <script src="/JS/swiper-bundle.min.js"></script>
     <script src="/JS/main.js"></script>
 </body>
 
