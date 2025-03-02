@@ -3,6 +3,7 @@ let nav = document.querySelector('.navbar');
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
+//? Nav Active
 window.onscroll = () => {
   sections.forEach(section => {
     let top = window.scrollY;
@@ -26,28 +27,7 @@ menuIcon.addEventListener('click', () => {
   nav.classList.toggle('active');
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//? Slides
 var swiper = new Swiper(".slide-content", {
       slidesPerView: 3,
       centeredSlides: true,
